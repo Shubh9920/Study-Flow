@@ -1,0 +1,6 @@
+{
+  "name": "StudyFlow",
+  "description": "Smart study focus timer with customizable intervals, ambient soundscapes, dark mode, task management, progress streaks, and offline-first cloud sync.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

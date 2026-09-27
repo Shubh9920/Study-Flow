@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Top Stopwatch Button -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M 50,26 h 8 v 4 h -8 z" />
+    <path
+        android:fillColor="#67E8F9"
+        android:pathData="M 52,23 h 4 v 3 h -4 z" />
+    <!-- Diagonal right button -->
+    <path
+        android:fillColor="#818CF8"
+        android:pathData="M 72.5,32.5 l 3.5,3.5 l -2.8,2.8 l -3.5,-3.5 z" />
+    <!-- Outer ring of timer -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#F8FAFC"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M 54,34 A 23,23 0 1,1 36.5,41.5" />
+    <!-- Clock hands pointing to focus time (10 past 10 / focus mark) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M 54,57 L 54,43" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 54,57 L 65,51" />
+    <!-- Center pivot -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M 54,57 m -3,0 a 3,3 0 1,0 6,0 a 3,3 0 1,0 -6,0" />
+    <!-- Glowing focus dots on the perimeter -->
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M 54,77 m -2.5,0 a 2.5,2.5 0 1,0 5,0 a 2.5,2.5 0 1,0 -5,0" />
+    <path
+        android:fillColor="#F472B6"
+        android:pathData="M 74,57 m -2,0 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+</vector>
